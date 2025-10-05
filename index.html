@@ -3,120 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>кпопики</title>
-        <style>
-           {margin: 0;
+    <title>К-поп: от нишевого жанра к мировому феномену</title>
+    <style>
+        /* Исправлено: добавлен селектор для сброса стилей */
+        * {
+            margin: 0;
             padding: 0;
-            box-sizing: border-box}
-        body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             color: #333;
-            padding: 20px}
-         h2 { color: #ff6b6b;
+            padding: 20px;
+        }
+        
+        h2 {
+            color: #ff6b6b;
             font-size: 2.2em;
             margin-bottom: 30px;
             text-align: center;
-            position: relative}
-        h2:after { content: '';
+            position: relative;
+        }
+        
+        h2:after {
+            content: '';
             display: block;
             width: 80px;
             height: 4px;
             background: #ff6b6b;
             margin: 10px auto;
-            border-radius: 2px }
-        </style>
+            border-radius: 2px;
+        }
+        
+        /* Дополнительные стили для семантической структуры */
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .group-roles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .role-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+        }
+        
+        .group-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .group-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .group-item img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+        
+        .popularity-reasons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .reason-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
+    <!-- Добавлены семантические теги для структуры -->
+    <header>
+        <h1>Жанр перерос в популярную субкультуру?!</h1>
+        <h2>Что такое K-pop?</h2>
+    </header>
     
-        <header>
-            <h1> Жанр перерос в популярную субкультуру?!  </h1>
-            <h2>Что такое k-pop?</h2>
-        </header>
+    <main>
+        <!-- Секция с определением K-pop -->
+        <section>
+            <p>K-pop (от англ. Korean popular music — «корейская популярная музыка») — музыкальный жанр, возникший в Южной Корее. Он вобрал в себя элементы западного электропопа, хип-хопа, танцевальной музыки и современного ритм-н-блюза.</p>
+        </section>
         
-        K-pop (от англ. Korean popular music — «корейская популярная музыка») — музыкальный жанр, возникший в Южной Корее. Он вобрал в себя элементы западного электропопа, хип-хопа, танцевальной музыки и современного ритм-н-блюза.
-        
-            <h2>Что такое kpop группа?</h2>
-            <img src="скз.jpg" alt="кпоп" width="450" height="400">
-            <img src="bts.jpg" alt="кпоп" width="450" height="400" style=" left">
-            <img src="blackpink.jpg" alt="кпоп" width="450" height="400" style=" left">
-                
-                <p>Кпоп группа -это группа в жанре корейской поп-музыки, зародившегося в Южной Корее. Как правило, в таких коллективах артисты поют и танцуют одновременно.<br> Их выступления — это всегда шоу: сложнейшие хореографии, яркие визуальные эффекты и продуманные до мелочей образы.</br></p>
-                
-                    <div style="text-align: center;">
-                        <h3>Состав группы:</h3>
-                        <h4>Вокалист- основной певец группы</h4>
-                    
-                        <h4>Танцор- мастер хореографии</h4>
-                    
-                    
-                        <h4>Рэпер- исполнитель рэп-партий</h4>
-                    
-                    
-                        <h4>Вижуал- «Лицо» группы</h4>
+        <!-- Секция о K-pop группах -->
+        <section>
+            <h2>Что такое K-pop группа?</h2>
+            <div style="text-align: center; margin: 20px 0;">
+                <!-- Исправлено: добавлены информативные alt-атрибуты -->
+                <img src="скз.jpg" alt="K-pop группа на сцене" width="450" height="400">
+                <img src="bts.jpg" alt="Группа BTS во время выступления" width="450" height="400">
+                <img src="blackpink.jpg" alt="Группа BLACKPINK в фотосессии" width="450" height="400">
+            </div>
+            
+            <p>K-pop группа - это группа в жанре корейской поп-музыки, зародившегося в Южной Корее. Как правило, в таких коллективах артисты поют и танцуют одновременно. Их выступления — это всегда шоу: сложнейшие хореографии, яркие визуальные эффекты и продуманные до мелочей образы.</p>
+            
+            <!-- Исправлено: заменены h4 на семантически правильные элементы -->
+            <div style="text-align: center;">
+                <h3>Состав группы:</h3>
+                <div class="group-roles">
+                    <div class="role-card">
+                        <p><strong>Вокалист</strong></p>
+                        <p>Основной певец группы</p>
                     </div>
-                
-            
+                    <div class="role-card">
+                        <p><strong>Танцор</strong></p>
+                        <p>Мастер хореографии</p>
+                    </div>
+                    <div class="role-card">
+                        <p><strong>Рэпер</strong></p>
+                        <p>Исполнитель рэп-партий</p>
+                    </div>
+                    <div class="role-card">
+                        <p><strong>Вижуал</strong></p>
+                        <p>«Лицо» группы</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         
-            <h2>Поколения гигантов k-pop</h2>
+        <!-- Секция о поколениях K-pop -->
+        <section>
+            <h2>Поколения гигантов K-pop</h2>
             
-                
-                    <div style="text-align: center;"><h3>♫ Легенды 2-го и 3-го поколения</h3></div>
-                    
-                        <ul>
-                            <li><h4>BTS (Bangtan Sonyeondan)</h4>
-                        Группа, изменившая правила игры. Своими искренними текстами на социальные темы они нашли отклик у молодежи по всему миру.</li>
-                        <img src="bbts.jpg" alt="кпоп" width="200" height="150">
-                            <li><h4>BLACKPINK</h4>
-                        Группа, несущая философию «girl crush». Их стиль — смесь элегантной роскоши и мощной энергии.</li>
-                        <img src="bp.jpg" alt="кпоп" width="200" height="150">
-                            <li><h4>TWICE</h4>
-                        TWICE стали королевами яркого, «цепляющего» K-Pop. Их ранние хиты называют национальным достоянием Южной Кореи из-за их популярности.</li>
-                        <img src="twice.jpg" alt="кпоп" width="200" height="150">
-                         </ul>
-                    
-                
-                
-                    <div style="text-align: center;"><h3> ♫ Настоящее и будущее: 4-е и 5-е поколение</h3></div>
-                    
-                    
-                        <ul>
-                            <li><h4>STRAY KIDS</h4>
-                            Самостоятельно участвуют в продюсировании своей музыки, которая славится мощным звучанием и бунтарским духом.<br>Это обеспечивает не только аутентичность и личную связь с музыкой, но и создает уникальное звучание, отличающееся от стандартных K-Pop шаблонов.</br></li>
-                            <img src="stray.jpg" alt="кпоп" width="200" height="150">
-                            <li><h4>NEWJEANS</h4>
-                            Произвели революцию своим ярким и ностальгическим звучанием и минималистичными клипами.</li>
-                            <img src="njz.jpg" alt="кпоп" width="200" height="150">
-                            <li><h4>IVE</h4>
-                            Группа, пропагандирующая уверенность в себе и любовь к себе.</li>
-                            <img src="ive.jpg" alt="кпоп" width="200" height="150">
-                        </ul>
-                    
-                
-                      
+            <article>
+                <h3>Легенды 2-го и 3-го поколения</h3>
+                <div class="group-list">
+                    <div class="group-item">
+                        <h4>BTS (Bangtan Sonyeondan)</h4>
+                        <p>Группа, изменившая правила игры. Своими искренними текстами на социальные темы они нашли отклик у молодежи по всему миру.</p>
+                        <img src="bbts.jpg" alt="Группа BTS в официальном мерче" width="200" height="150">
+                    </div>
+                    <div class="group-item">
+                        <h4>BLACKPINK</h4>
+                        <p>Группа, несущая философию «girl crush». Их стиль — смесь элегантной роскоши и мощной энергии.</p>
+                        <img src="bp.jpg" alt="Группа BLACKPINK на концерте" width="200" height="150">
+                    </div>
+                    <div class="group-item">
+                        <h4>TWICE</h4>
+                        <p>TWICE стали королевами яркого, «цепляющего» K-Pop. Их ранние хиты называют национальным достоянием Южной Кореи из-за их популярности.</p>
+                        <img src="twice.jpg" alt="Группа TWICE в музыкальном видео" width="200" height="150">
+                    </div>
+                </div>
+            </article>
+            
+            <article>
+                <h3>Настоящее и будущее: 4-е и 5-е поколение</h3>
+                <div class="group-list">
+                    <div class="group-item">
+                        <h4>STRAY KIDS</h4>
+                        <p>Самостоятельно участвуют в продюсировании своей музыки, которая славится мощным звучанием и бунтарским духом. Это обеспечивает не только аутентичность и личную связь с музыкой, но и создает уникальное звучание, отличающееся от стандартных K-Pop шаблонов.</p>
+                        <img src="stray.jpg" alt="Группа STRAY KIDS на репетиции" width="200" height="150">
+                    </div>
+                    <div class="group-item">
+                        <h4>NEWJEANS</h4>
+                        <p>Произвели революцию своим ярким и ностальгическим звучанием и минималистичными клипами.</p>
+                        <img src="njz.jpg" alt="Группа NEWJEANS в повседневной одежде" width="200" height="150">
+                    </div>
+                    <div class="group-item">
+                        <h4>IVE</h4>
+                        <p>Группа, пропагандирующая уверенность в себе и любовь к себе.</p>
+                        <img src="ive.jpg" alt="Группа IVE на фотосессии" width="200" height="150">
+                    </div>
+                </div>
+            </article>
+        </section>
         
+        <!-- Секция о причинах популярности -->
+        <section>
             <h2>Почему они так популярны?</h2>
             
-                 <div style="text-align: center;"><h3> Кпоп превратился из нишевого жанра в мировой культурный феномен благодаря уникальному сочетанию факторов, которые создают совершенную развлекательную экосистему.</div></h3>
-                
+            <!-- Исправлено: правильная вложенность тегов -->
+            <div style="text-align: center;">
+                <h3>K-pop превратился из нишевого жанра в мировой культурный феномен благодаря уникальному сочетанию факторов, которые создают совершенную развлекательную экосистему.</h3>
+            </div>
             
+            <div class="popularity-reasons">
+                <div class="reason-card">
                     <h4>1. Перформанс</h4>
-                    Танец в K-Pop — это отдельный вид искусства. Сложные, идеально отточенные движения стали визитной карточкой жанра.
-                <br><a href="https://rutube.ru/video/687a2a8282f02ba331d2d5e4b9a82b71/?r=wd">Танцевальная практика группы STRAY KIDS- LALALA</a></br>
+                    <p>Танец в K-Pop — это отдельный вид искусства. Сложные, идеально отточенные движения стали визитной карточкой жанра.</p>
+                    <p><a href="https://rutube.ru/video/687a2a8282f02ba331d2d5e4b9a82b71/?r=wd">Танцевальная практика группы STRAY KIDS- LALALA</a></p>
+                </div>
+                <div class="reason-card">
                     <h4>2. Контент 24/7</h4>
-                    Реалити-шоу, влоги, прямые эфиры — фанаты получают доступ к огромному количеству контента.
-                <br> <a href="https://rutube.ru/video/f94f6c7e2d301c613d038d1052f6db7d/?r=wd">Собственное шоу группы BTS -"BTS RUN"</a></br>
-                
-                
+                    <p>Реалити-шоу, влоги, прямые эфиры — фанаты получают доступ к огромному количеству контента.</p>
+                    <p><a href="https://rutube.ru/video/f94f6c7e2d301c613d038d1052f6db7d/?r=wd">Собственное шоу группы BTS - "BTS RUN"</a></p>
+                </div>
+                <div class="reason-card">
                     <h4>3. Социальные сети</h4>
-                    Активное ведение соцсетей и участие в челленджах делает артистов ближе к глобальной аудитории.
-                <br> <a href="https://www.instagram.com/aespa_official?igsh=cTFhN20wdWU3ejlz">Инстаграмм аккаунт группы AESPA</a></br>
-                
+                    <p>Активное ведение соцсетей и участие в челленджах делает артистов ближе к глобальной аудитории.</p>
+                    <p><a href="https://www.instagram.com/aespa_official?igsh=cTFhN20wdWU3ejlz">Инстаграмм аккаунт группы AESPA</a></p>
+                </div>
+                <div class="reason-card">
                     <h4>4. Фандомы</h4>
-                    Фанаты — движущая сила K-Pop, формируя глобальное сообщество.
-                <br><a href="https://www.kpopmap.com/list-of-kpop-fandom-names/">Все фандомы кпоп групп</a></br>
-            
-        
-    
+                    <p>Фанаты — движущая сила K-Pop, формируя глобальное сообщество.</p>
+                    <p><a href="https://www.kpopmap.com/list-of-kpop-fandom-names/">Все фандомы K-pop групп</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
